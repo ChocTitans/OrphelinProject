@@ -1,0 +1,12 @@
+name: Workflow for deployment in K8S
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Echo test
+      run: |
+        echo "Waiting l'hebergeur to add auto deploy"
