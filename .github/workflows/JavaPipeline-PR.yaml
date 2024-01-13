@@ -1,0 +1,24 @@
+name: Build Pipeline for Java
+
+on:
+  pull_request:
+    paths:
+      - 'Java/**'
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'adopt'
+        java-version: '17'
+
+    - name: Build Java project
+      run: |
+        cd product-service
+        mvn clean install -DskipTests
