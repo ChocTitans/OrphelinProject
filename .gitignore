@@ -1,21 +1,22 @@
-./HELP.md
-./target/
-./!.mvn/wrapper/maven-wrapper.jar
-./!**/src/main/**/target/
-./!**/src/test/**/target/
+./Java/HELP.md
+./Java/target/
+./Java/!.mvn/wrapper/maven-wrapper.jar
+./Java/!**/src/main/**/target/
+./Java/!**/src/test/**/target/
 
 ### STS ###
-./.apt_generated
-./.classpath
-./.factorypath
-./.project
-./.settings
-./.springBeans
-./.sts4-cache
+./Java/.apt_generated
+./Java/.classpath
+./Java/.factorypath
+./Java/.project
+./Java/.settings
+./Java/.springBeans
+./Java/.sts4-cache
 
 ### IntelliJ IDEA ###
-./.idea
-./*.iws
-./*.iml
-./*.ipr
+./Java/.idea
+.idea
+./Java/*.iws
+./Java/*.iml
+./Java/*.ipr
 
