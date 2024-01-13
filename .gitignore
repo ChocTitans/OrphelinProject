@@ -1,0 +1,22 @@
+./Java/HELP.md
+./Java/target/
+./Java/!.mvn/wrapper/maven-wrapper.jar
+./Java/!**/src/main/**/target/
+./Java/!**/src/test/**/target/
+
+### STS ###
+./Java/.apt_generated
+./Java/.classpath
+./Java/.factorypath
+./Java/.project
+./Java/.settings
+./Java/.springBeans
+./Java/.sts4-cache
+
+### IntelliJ IDEA ###
+./Java/.idea
+.idea
+./Java/*.iws
+./Java/*.iml
+./Java/*.ipr
+
